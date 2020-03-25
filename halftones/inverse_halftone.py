@@ -12,7 +12,6 @@
 #
 import numpy as _np
 import scipy.misc as _spm
-from scipy.misc import imresize
 from skimage.restoration import denoise_tv_chambolle as _tv
 import halftones.compiled as _compiled
 
